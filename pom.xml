@@ -13,8 +13,8 @@
     </properties>
     <scm>
         <developerConnection>scm:git:https://github.com/Tejas7875/Testing1.git</developerConnection>
-      <tag>TestMaven2-1.0</tag>
-  </scm>
+        <tag>v1.0</tag>
+    </scm>
 
     <build>
         <plugins>
@@ -26,6 +26,7 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
+                    <tagNameFormat>v@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
