@@ -15,7 +15,7 @@
         <url>https://github.com/Tejas7875/Testing1.git</url> <!-- GIT URL -->
         <connection>scm:git:https://github.com/Tejas7875/Testing1.git</connection> <!-- URL HTTP de clone do projeto -->
         <developerConnection>scm:git:https://github.com/Tejas7875/Testing1.git</developerConnection>
-        <tag>v1.0</tag>
+        <tag>1.0</tag>
     </scm>
 
     <build>
@@ -28,7 +28,7 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
-                    <tagNameFormat>v@{project.version}</tagNameFormat>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
