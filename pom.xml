@@ -12,9 +12,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <scm>
-        <url>:https://github.com/Tejas7875/Testing1.git</url> <!-- GIT URL -->
-        <connection>scm:git::https://github.com/Tejas7875/Testing1.git</connection> <!-- URL HTTP de clone do projeto -->
-        <developerConnection>scm:git::https://github.com/Tejas7875/Testing1.git</developerConnection>
+        <url>https://github.com/Tejas7875/Testing1.git</url> <!-- GIT URL -->
+        <connection>scm:git:https://github.com/Tejas7875/Testing1.git</connection> <!-- URL HTTP de clone do projeto -->
+        <developerConnection>scm:git:https://github.com/Tejas7875/Testing1.git</developerConnection>
         <tag>v1.0</tag>
     </scm>
 
