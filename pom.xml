@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>TestMaven2</artifactId>
-    <version>2.20-SNAPSHOT</version>
+    <version>2.0.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -15,7 +15,7 @@
         <url>git@github.com:Tejas7875/sc1.git</url> <!-- GIT URL -->
         <connection>scm:git:git@github.com:Tejas7875/sc1.git</connection> <!-- URL HTTP de clone do projeto -->
         <developerConnection>scm:git:git@github.com:Tejas7875/sc1.git</developerConnection>
-        <tag>v@{project.version}</tag>
+        <tag>v2.0.0</tag>
     </scm>
 
     <build>
