@@ -13,7 +13,7 @@
     </properties>
     <scm>
         <developerConnection>scm:git:git@github.com:Tejas7875/sc1again.git</developerConnection>
-      <tag>v2.0.2</tag>
+    <tag>v2.0.2</tag>
   </scm>
 
     <build>
